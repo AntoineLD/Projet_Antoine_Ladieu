@@ -19,18 +19,7 @@
 </head>
 <body>
 
-    <header class="site-header">
-        <div class="container">
-            <a href="/" id="logo">FreshVeg 🥕</a>
-            
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#" class="nav-button">Panier 🛒</a></li>
-                    <li><a href="#" class="nav-button">Connexion 👤</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include 'header.php'; ?>
 
     <main>
         <section id="hero">
@@ -74,7 +63,7 @@
                         </div>
                     </article>
                     <article class="product-card">
-                        <img src="assets/img/tomates.png" alt="Grappe de tomates bio juteuses">
+                        <img src="assets/img/haricots_verts.png" alt="Grappe de tomates bio juteuses">
                         <div class="card-content">
                             <h4>Haricots verts Bio</h4>
                             <p class="product-price">2.50€ / kg</p>
@@ -82,7 +71,7 @@
                         </div>
                     </article>
                     <article class="product-card">
-                        <img src="assets/img/tomates.png" alt="Grappe de tomates bio juteuses">
+                        <img src="assets/img/haricots_blancs.png" alt="Grappe de tomates bio juteuses">
                         <div class="card-content">
                             <h4>Haricots</h4>
                             <p class="product-price">2.00€ / kg</p>
@@ -90,9 +79,9 @@
                         </div>
                     </article>
                     <article class="product-card">
-                        <img src="assets/img/tomates.png" alt="Grappe de tomates bio juteuses">
+                        <img src="assets/img/céleri.png" alt="Grappe de tomates bio juteuses">
                         <div class="card-content">
-                            <h4>Branche de céléries Bio</h4>
+                            <h4>Branche de céleris Bio</h4>
                             <p class="product-price">1.00€ / branches</p>
                             <button class="add-to-cart-button">Ajouter au panier</button>
                         </div>
