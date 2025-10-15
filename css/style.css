@@ -139,8 +139,7 @@ a.nav-button:hover {
 
 .products-grid {
     display: grid;
-    /* 1 colonne sur mobile par défaut */
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr; /*Pour les mobiles*/
     gap: 1.5rem;
 }
 
@@ -198,6 +197,8 @@ a.nav-button:hover {
 .add-to-cart-button:hover {
     background-color: #1B5E20; 
 }
+
+/*Le résponsive pour les appareils mobiles ou tablettes (autres que pc)*/ 
 
 @media (min-width: 768px) {
   
